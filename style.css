@@ -25,6 +25,7 @@
 
 .nav li a {
     color: aliceblue;
+    background-color:coral;
 }
 
 .judul2 {
@@ -40,7 +41,7 @@
 
 .kategori {
     color: black;
-    margin-top: 100px;
+    margin-top: 80px;
     justify-content: right;
     font-family: 'Times New Roman', Times, serif;
     -webkit-text-stroke: 1px white;
@@ -48,4 +49,15 @@
     font-size: 35px;
     text-shadow: 0px -1px white;
     padding-left: 1200px;
+}
+
+.img2 {
+    height: 335px;
+    width: 300px;
+}
+
+.biodata {
+    margin-left: 320px;
+    margin-top: 150px;
+    position: absolute;
 }
