@@ -25,30 +25,44 @@
 
 .nav li a {
     color: aliceblue;
-    background-color:coral;
+}
+
+.a-konten {
+    color: aliceblue;
 }
 
 .judul2 {
     color: black;
-    margin-top: 300px;
+    margin-top: 350px;
     margin-left: 470px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     -webkit-text-stroke: 1px white;
     position: absolute;
-    font-size: 40px;
-    text-shadow: 0px -1px white;
+    font-size: 40px;;
 }
 
 .kategori {
     color: black;
     margin-top: 80px;
     justify-content: right;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     -webkit-text-stroke: 1px white;
     position: absolute;
     font-size: 35px;
     text-shadow: 0px -1px white;
-    padding-left: 1200px;
+    padding-left: 1250px;
+}
+
+.kontenjudul2 {
+    color: black;
+    margin-top: 130px;
+    justify-content: right;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 1px white;
+    position: absolute;
+    font-size: 30px;
+    text-shadow: 0px -1px white;
+    padding-left: 1250px;
 }
 
 .img2 {
@@ -58,6 +72,8 @@
 
 .biodata {
     margin-left: 320px;
-    margin-top: 150px;
+    margin-top: 130px;
     position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
