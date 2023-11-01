@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 .home {
     background-size: cover;
     width: 100%;
@@ -13,24 +19,6 @@
     margin: 0 auto;
 }
 
-.nav ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    gap: 40px;
-    font-size: 25px;
-    position: absolute;
-    margin-left: 550px;
-}
-
-.nav li a {
-    color: aliceblue;
-}
-
-.a-konten {
-    color: aliceblue;
-}
-
 .judul2 {
     color: black;
     margin-top: 350px;
@@ -41,28 +29,58 @@
     font-size: 40px;;
 }
 
-.kategori {
-    color: black;
-    margin-top: 80px;
-    justify-content: right;
-    font-family: Arial, Helvetica, sans-serif;
-    -webkit-text-stroke: 1px white;
-    position: absolute;
-    font-size: 35px;
-    text-shadow: 0px -1px white;
-    padding-left: 1250px;
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#033747,#012733);
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
 }
 
-.kontenjudul2 {
-    color: black;
-    margin-top: 130px;
-    justify-content: right;
-    font-family: Arial, Helvetica, sans-serif;
-    -webkit-text-stroke: 1px white;
-    position: absolute;
-    font-size: 30px;
-    text-shadow: 0px -1px white;
-    padding-left: 1250px;
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color:#ff8c69 ;
+    transition: all 0.4s ease 0s;
+}
+
+.kategoripilihan {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.content-items img{
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
 }
 
 .img2 {
@@ -72,8 +90,17 @@
 
 .biodata {
     margin-left: 380px;
-    margin-top: 130px;
+    margin-top: 100px;
     position: absolute;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.divborder {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid rgb(205, 202, 202);
+    background-color: whitesmoke;
+    border-radius: 20px;
 }
